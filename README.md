@@ -9,6 +9,7 @@ AspireLoanManagementApp is a Spring Boot(Java based) application that allows cus
     - [Configuration](#configuration)
   - [Usage](#usage)
   - [API Documentation](#api-documentation)
+
   
   ## Prerequisites
     To run this project, you will need the following prerequisites:
@@ -25,10 +26,10 @@ AspireLoanManagementApp is a Spring Boot(Java based) application that allows cus
       1. Clone the repository:
       
            ```sh
-           git clone https://github.com/yourusername/loan-management-system.git
+           git clone https://github.com/sizvivek/AspireLoanManagementApp.git
          
       2. Navigate to the project directory
-         cd loan-management-system
+      
     
     ### Configuration
       Before running the project, you need to configure the database and build it.
@@ -50,10 +51,16 @@ AspireLoanManagementApp is a Spring Boot(Java based) application that allows cus
     To use the Loan Management System:
       * Run the Spring Boot application.
       * Access the API endpoints to apply for loans, approve applications, and make repayments.
+        * To disable authentication-check and test API combinations more freely
+          -  Uncomment the SecurityConfig.java class
+          -  Uncomment the security related config in application.properties
 
 
   ## API Documentation
-      API documentation for the Loan Management System can be found at link.
+      API documentation for the Loan Management System can be found at 
+              https://docs.google.com/document/d/e/2PACX-1vTQ88L9Sxhp2AzdnJgXer8GkAyE_Mnu1PIENuMYbq9zAF-XQH9Fw0VPaO1thGmw0FYA2ZRgqwDSWDrb/pub
+
+  
 
 
 
